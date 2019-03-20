@@ -16,6 +16,8 @@ int main()
            cin>>nhanvien;
            d++;
            timewasted[d]=nhanvien-tongthoigian;
+           if(timewasted[d]<0)
+           		timewasted[d]=0;
        }
        tongthoigian=tongthoigian+t;
 
